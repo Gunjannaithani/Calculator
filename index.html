@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title> 
+            CALCULATOR
+        </title>
+        <link href="calculator.css" rel="stylesheet" type="text/css"/>
+        <script src="calculator.js" ></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+       
+    </head>
+
+    <body>
+
+        <div id="header">
+            <button class="btn-link" onclick="changeMode()">MODE</button>
+            <span>CALCULATOR</span>
+        </div>
+
+        <div id="container">
+            <input type="text" name="screen" id="screen"/>
+
+            <span class="big">Edureka -</span>
+            <span class="small">Scientific Calculator</span>
+
+            <button value="AC" onclick="AC()" class="btn-danger ac" >AC</button>
+        
+
+            <button value="1" onclick="dis(1)"class="hover">1</button>
+            <button value="2" onclick="dis(2)"class="hover">2</button>
+            <button value="3" onclick="dis(3)"class="hover">3</button>
+
+            <button value="/" onclick="div()"class="btn-success"  >÷</button>
+
+            <button value="4" onclick="dis(4)"class="hover">4</button>
+            <button value="5" onclick="dis(5)"class="hover">5</button>
+            <button value="6" onclick="dis(6)"class="hover">6</button>
+
+            <button value="*" onclick="mul()" class="btn-success">x</button>
+
+            <button value="7" onclick="dis(7)"class="hover">7</button>
+            <button value="8" onclick="dis(8)"class="hover">8</button>
+            <button value="9" onclick="dis(9)"class="hover">9</button>
+
+            <button value="+" onclick="add()" class="btn-success">+</button> 
+
+            <button value="." onclick="point()"class="hover" >.</button>
+            <button value="0" onclick="dis(0)"class="hover">0</button>
+            <button value="=" onclick="solve()"class="btn-info" >=</button>
+
+            <button value="-" onclick="sub()" class="btn-success">-</button>
+           
+            
+        </div>
+    </body>
+
+    <hr>
+    <footer>
+        <h3> &copy Developer Funnel</h3>
+    </footer>
+</html>
